@@ -42,8 +42,8 @@ demo_ICP_LS_normal.m
 ## **ICP based on least squares (point-to-plane)** 
 > demo_ICP_LS_normal.m
 <p float="left">
-<img src="plots/gifs/correspondences_ls_normal.gif" width="400" height="250"> 
-<img src="plots/gifs/correspondences_ls_normal_lidar.gif" width="400" height="250"> 
+<img src="plots/gifs/correspondences_ls_normal.gif" width="500" height="350"> 
+<img src="plots/gifs/correspondences_ls_normal_lidar.gif" width="500" height="350"> 
 </p>
 
 
