@@ -14,8 +14,8 @@ demo_data_simulation.m
 demo_lidar_scans.m
 ```
 <p float="left">
-<img src="plots/demo_simulated_data.bmp" width="500" height="350"> 
-<img src="plots/demo_lidar_data.bmp" width="500" height="350"> 
+<img src="plots/demo_simulated_data.bmp" width="400" height="300"> 
+<img src="plots/demo_lidar_data.bmp" width="400" height="300"> 
 </p>
 
 ## **ICP - singular value decomposition (SVD)** 
@@ -23,8 +23,8 @@ demo_lidar_scans.m
 demo_ICP_SVD.m
 ```
 <p float="left">
-<img src="plots/gifs/correspondences_svd.gif" width="500" height="350"> 
-<img src="plots/gifs/correspondences_svd_lidar.gif" width="500" height="350"> 
+<img src="plots/gifs/correspondences_svd.gif" width="400" height="300"> 
+<img src="plots/gifs/correspondences_svd_lidar.gif" width="400" height="300"> 
 </p>
 
 ## **ICP - least squares (point-to-point)** 
@@ -32,8 +32,8 @@ demo_ICP_SVD.m
 demo_lCP_LS.m
 ```
 <p float="left">
-<img src="plots/gifs/correspondences_ls.gif" width="500" height="350"> 
-<img src="plots/gifs/correspondences_ls_lidar.gif" width="500" height="350"> 
+<img src="plots/gifs/correspondences_ls.gif" width="400" height="300"> 
+<img src="plots/gifs/correspondences_ls_lidar.gif" width="400" height="300"> 
 </p>
 
 
@@ -42,6 +42,6 @@ demo_lCP_LS.m
 demo_ICP_LS_normal.m
 ```
 <p float="left">
-<img src="plots/gifs/correspondences_ls_normal.gif" width="500" height="350"> 
-<img src="plots/gifs/correspondences_ls_normal_lidar.gif" width="500" height="350"> 
+<img src="plots/gifs/correspondences_ls_normal.gif" width="400" height="300"> 
+<img src="plots/gifs/correspondences_ls_normal_lidar.gif" width="400" height="300"> 
 </p>
