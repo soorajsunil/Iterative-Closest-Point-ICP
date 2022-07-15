@@ -4,7 +4,7 @@
 % 2) LIDAR scan matching
 
 clc; clear; close all;
-demo = 'lidar';  % Options = {'lidar', 'simulation'}
+demo = 'simulation';  % Options = {'lidar', 'simulation'}
 
 switch upper(demo)
     case 'SIMULATION'

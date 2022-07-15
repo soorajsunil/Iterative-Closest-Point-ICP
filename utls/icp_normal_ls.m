@@ -29,16 +29,27 @@ for iter = 1:maxIterations
         case false
             correspondences = get_correspondence_indices(Piter, Q);
     end
+    % Optional animation:
     if drawCorrespondences
-        fprintf('\n Iteration number: %d \n', iter)
+        fprintf('\n ICP Iteration number: %d / %d\n', iter, maxIterations)
+        filename = 'correspondences.gif' ;
         switch iter
             case 1
-                f = figure(Name='Correspondences');
+                f = figure('rend','painters','pos',[100 100 800 600]); clf;
+                set(gcf, 'Color', [1,1,1]);
                 draw_correspondences(Piter, Q, correspondences);
+                frame = getframe(f);                                    % capture frame for file-writing
+                im = frame2im(frame);
+                [imind,cm] = rgb2ind(im,256);
+                imwrite(imind,cm,filename,'gif', 'Loopcount',inf, 'DelayTime', 1);
             case maxIterations
                 close(f)
             otherwise
                 draw_correspondences(Piter, Q, correspondences);
+                frame = getframe(f);                                    % capture frame for file-writing
+                im = frame2im(frame);
+                [imind,cm] = rgb2ind(im,256);
+                imwrite(imind,cm,filename,'gif','WriteMode','append', 'DelayTime', 1);
         end
     end
     % Gauss Newton
@@ -114,7 +125,7 @@ error      =  prediction - q_point; % <- minimize
 end
 
 function [H, g, chi] = point2plane_initialize(x, P, Q, Qnormals, correspondences)
-% Gauss Newton : point-to-plane 
+% Gauss Newton : point-to-plane
 H   = zeros(3,3); % Hessian
 g   = zeros(3,1); % gradient
 chi = 0;

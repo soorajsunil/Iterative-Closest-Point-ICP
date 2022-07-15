@@ -7,6 +7,7 @@ y2 = Q(2,correspondences(2,:));
 plot_2Dpoints(P, Q, 'P', 'Q')
 hold on;
 plot([x1(:)'; x2(:)'], [y1(:)'; y2(:)'], 'k-', HandleVisibility='off');
+pause(0.02);
 hold off;
 drawnow
 end  
