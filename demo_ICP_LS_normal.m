@@ -17,7 +17,8 @@ switch upper(demo)
         figure(Name='After ICP');
         plot_2Dpoints(Pcorrected,Q,'P: corrected data', 'Q: true data', 6, 8)
         % Plot squared differences P->Q
-        lgnd = {'$\sum_{i,j}$ $\vert \vert p_i- q_j \vert \vert$'};
+        lgn
+        d = {'$\sum_{i,j}$ $\vert \vert p_i- q_j \vert \vert$'};
         plot_error(norm_per_iter, lgnd)
     case 'LIDAR'
         % Get lidar data points

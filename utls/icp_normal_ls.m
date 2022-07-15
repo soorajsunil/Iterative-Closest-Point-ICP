@@ -2,7 +2,7 @@ function [Pcorrected, chi_per_iter] = icp_normal_ls(P, Q, maxIterations)
 % Transform 2D point set P to coordinates of 2D point set Q using iterative
 % closest point (ICP) algorithm based on nonlinear optimization
 
-drawCorrespondences   = true; % animation per iteration
+drawCorrespondences   = false; % animation per iteration
 uniqueCorrespondences = false; % for one-to-one correspondences
 
 switch nargin

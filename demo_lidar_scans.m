@@ -23,6 +23,6 @@ Q     = Lidar.polar_to_cartesian(Lidar.ranges(Qscan,:), Lidar.angle);
 
 % Plot raw data
 figure(Name='Before ICP');
-plot_2Dpoints(P,Q, strcat('P, scan -', num2str(Pscan)), ...
-                    strcat('Q, scan - ', num2str(Qscan)))
+plot_2Dpoints(P,Q, strcat('P: scan - ', num2str(Pscan)), ...
+                    strcat('Q: scan - ', num2str(Qscan)))
 
