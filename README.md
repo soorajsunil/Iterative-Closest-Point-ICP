@@ -1,4 +1,4 @@
-# ICP-2D-Registration
+2D-ICP-Registration
 **Iterative closest point (ICP) for 2D laser scan matching (SLAM applications).** \
 This repo is a Matlab version of the python notebook: https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb
 
