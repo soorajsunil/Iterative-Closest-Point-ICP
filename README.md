@@ -1,14 +1,15 @@
-# 2D-ICP
-**Iterative closest point (ICP) for 2D laser scan matching (SLAM applications).** \
+# ICP
+**Iterative closest point (ICP) for 2D laser scan matching** \
 This repo is a Matlab version of the python notebook: https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb
 
 ## Contents:
 - **Data generation/loading**
-- **ICP - singular value decomposition (SVD)**
-- **ICP - least squares (point-to-point)**
-- **ICP - least squares (point-to-plane)**
+- **ICP using singular value decomposition (SVD)**
+- **ICP using least squares (point-to-point correspondences)**
+- **ICP using least squares (point-to-plane correspondences)**
 
 ## **Data generation/loading**
+For sample data, one can either simulate data points or read it from real-world environment lidar scans.  
 ```
 demo_data_simulation.m 
 demo_lidar_scans.m
