@@ -4,12 +4,12 @@ This repo is a Matlab version of the python notebook: https://nbviewer.org/githu
 
 ## Contents:
 - **Data generation/loading**
-- **ICP using singular value decomposition (SVD)**
-- **ICP using least squares (point-to-point correspondences)**
-- **ICP using least squares (point-to-plane correspondences)**
+- **ICP using Singular Value Decomposition (SVD)**
+- **ICP using Least Squares (point-to-point correspondences)**
+- **ICP using Least Squares (point-to-plane correspondences)**
 
 ## **Data generation/loading**
-For sample data, one can either simulate data points or read it from real-world environment lidar scans.  
+For sample data, one can either simulate data points or load scans of real-world lidar data.  
 ```
 demo_data_simulation.m 
 demo_lidar_scans.m
