@@ -1,5 +1,6 @@
 # ICP
-**Iterative closest point (ICP) for 2D laser scan matching** \ This repo is a Matlab version of the Python notebook: https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb 
+**Iterative closest point (ICP) for 2D laser scan matching** 
+This repo is a Matlab version of the Python notebook: https://nbviewer.org/github/niosus/notebooks/blob/master/icp.ipynb 
 In addition, demos using real-world RP Lidar measurements are included. 
 
 ## Contents:
